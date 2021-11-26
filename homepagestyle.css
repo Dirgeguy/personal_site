@@ -20,7 +20,7 @@ body p {
     padding-right: 3%;
 }
 
-body a:visited {
+body a:visited, body a:link {
     color: rgb(102, 194, 224);
   }
 
@@ -54,3 +54,7 @@ img {
     width: 35%;
     height: auto;
 }
+
+footer a:visited, body a:link {
+    color: rgb(102, 194, 224);
+  }
