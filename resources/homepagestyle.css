@@ -53,3 +53,10 @@ img {
     height: auto;
 }
 
+body article {
+    width: 40%;
+    height: auto;
+    align-content: block;
+    text-align: left;
+    margin-left: 100px;
+}
