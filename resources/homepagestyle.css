@@ -83,3 +83,7 @@ body article {
     display: inline-block;
     padding-left: 50px;
   }
+
+  .c_paragraph {
+      font-size: x-large;
+  }
