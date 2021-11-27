@@ -1,5 +1,8 @@
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: #1d1d1d;
+
 }
 
 body {
@@ -59,4 +62,24 @@ body article {
     align-content: block;
     text-align: left;
     margin-left: 100px;
+    font-size: large;
 }
+
+.r_justify {
+    float: right;
+    padding-right: 50px;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    padding: 15px;
+    
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+    padding-left: 50px;
+  }
